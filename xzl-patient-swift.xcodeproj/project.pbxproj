@@ -14,6 +14,7 @@
 		A3CFCCF328322BA500A4F50A /* xzl_patient_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCF228322BA500A4F50A /* xzl_patient_swiftTests.swift */; };
 		A3CFCCFD28322BA500A4F50A /* xzl_patient_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCFC28322BA500A4F50A /* xzl_patient_swiftUITests.swift */; };
 		A3CFCCFF28322BA500A4F50A /* xzl_patient_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCFE28322BA500A4F50A /* xzl_patient_swiftUITestsLaunchTests.swift */; };
+		A3CFCD0C28323ECC00A4F50A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCD0B28323ECC00A4F50A /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A3CFCCF828322BA500A4F50A /* xzl-patient-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xzl-patient-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CFCCFC28322BA500A4F50A /* xzl_patient_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xzl_patient_swiftUITests.swift; sourceTree = "<group>"; };
 		A3CFCCFE28322BA500A4F50A /* xzl_patient_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xzl_patient_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3CFCD0B28323ECC00A4F50A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */,
 				A3CFCCE328322BA300A4F50A /* ContentView.swift */,
 				A3CFCCE528322BA400A4F50A /* Assets.xcassets */,
+				A3CFCD0B28323ECC00A4F50A /* CircleImage.swift */,
 				A3CFCCE728322BA400A4F50A /* Preview Content */,
 			);
 			path = "xzl-patient-swift";
@@ -259,6 +262,7 @@
 			files = (
 				A3CFCCE428322BA300A4F50A /* ContentView.swift in Sources */,
 				A3CFCCE228322BA300A4F50A /* xzl_patient_swiftApp.swift in Sources */,
+				A3CFCD0C28323ECC00A4F50A /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
