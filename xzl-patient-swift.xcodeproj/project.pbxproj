@@ -15,6 +15,7 @@
 		A3CFCCFD28322BA500A4F50A /* xzl_patient_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCFC28322BA500A4F50A /* xzl_patient_swiftUITests.swift */; };
 		A3CFCCFF28322BA500A4F50A /* xzl_patient_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCFE28322BA500A4F50A /* xzl_patient_swiftUITestsLaunchTests.swift */; };
 		A3CFCD0C28323ECC00A4F50A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCD0B28323ECC00A4F50A /* CircleImage.swift */; };
+		A3CFCD0E2832426B00A4F50A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCD0D2832426B00A4F50A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A3CFCCFC28322BA500A4F50A /* xzl_patient_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xzl_patient_swiftUITests.swift; sourceTree = "<group>"; };
 		A3CFCCFE28322BA500A4F50A /* xzl_patient_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xzl_patient_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A3CFCD0B28323ECC00A4F50A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		A3CFCD0D2832426B00A4F50A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A3CFCCE328322BA300A4F50A /* ContentView.swift */,
 				A3CFCCE528322BA400A4F50A /* Assets.xcassets */,
 				A3CFCD0B28323ECC00A4F50A /* CircleImage.swift */,
+				A3CFCD0D2832426B00A4F50A /* MapView.swift */,
 				A3CFCCE728322BA400A4F50A /* Preview Content */,
 			);
 			path = "xzl-patient-swift";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3CFCCE428322BA300A4F50A /* ContentView.swift in Sources */,
+				A3CFCD0E2832426B00A4F50A /* MapView.swift in Sources */,
 				A3CFCCE228322BA300A4F50A /* xzl_patient_swiftApp.swift in Sources */,
 				A3CFCD0C28323ECC00A4F50A /* CircleImage.swift in Sources */,
 			);
