@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A386101A283640FE00C648E9 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3861019283640FD00C648E9 /* FavoriteButton.swift */; };
+		A386101F2836463400C648E9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A386101E2836463400C648E9 /* HexagonParameters.swift */; };
+		A3B9424328364CC60023166F /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9424228364CC60023166F /* BadgeBackground.swift */; };
 		A3CFCCE228322BA300A4F50A /* xzl_patient_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */; };
 		A3CFCCE428322BA300A4F50A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCE328322BA300A4F50A /* ContentView.swift */; };
 		A3CFCCE628322BA400A4F50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CFCCE528322BA400A4F50A /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		A3861019283640FD00C648E9 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		A386101E2836463400C648E9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		A3B9424228364CC60023166F /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		A3CFCCDE28322BA300A4F50A /* xzl-patient-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xzl-patient-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xzl_patient_swiftApp.swift; sourceTree = "<group>"; };
 		A3CFCCE328322BA300A4F50A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 				A3861019283640FD00C648E9 /* FavoriteButton.swift */,
 				A3CFCD0B28323ECC00A4F50A /* CircleImage.swift */,
 				A3CFCD0D2832426B00A4F50A /* MapView.swift */,
+				A3B9424228364CC60023166F /* BadgeBackground.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				A386101D2836424F00C648E9 /* Helpers */,
 				A386101C2836423700C648E9 /* Landmarks */,
 				A3CFCCE328322BA300A4F50A /* ContentView.swift */,
+				A386101E2836463400C648E9 /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,8 +335,10 @@
 				A3CFCD0E2832426B00A4F50A /* MapView.swift in Sources */,
 				A3D755AE28333CB800243425 /* LandmarkDetail.swift in Sources */,
 				A386101A283640FE00C648E9 /* FavoriteButton.swift in Sources */,
+				A386101F2836463400C648E9 /* HexagonParameters.swift in Sources */,
 				A3CFCCE228322BA300A4F50A /* xzl_patient_swiftApp.swift in Sources */,
 				A3CFCD1E28325CD700A4F50A /* LandmarkList.swift in Sources */,
+				A3B9424328364CC60023166F /* BadgeBackground.swift in Sources */,
 				A3CFCD0C28323ECC00A4F50A /* CircleImage.swift in Sources */,
 				A3CFCD1228324DB400A4F50A /* Landmark.swift in Sources */,
 				A3CFCD1C2832572700A4F50A /* LandmarkRow.swift in Sources */,
