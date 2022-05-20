@@ -27,6 +27,7 @@
 		A3B9426528378A100023166F /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9426428378A100023166F /* ProfileSummary.swift */; };
 		A3B9426728378B4E0023166F /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9426628378B4E0023166F /* HikeBadge.swift */; };
 		A3B942692837990B0023166F /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B942682837990B0023166F /* ProfileEditor.swift */; };
+		A3B9426C28379FC10023166F /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9426B28379FC10023166F /* PageViewController.swift */; };
 		A3CFCCE228322BA300A4F50A /* xzl_patient_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */; };
 		A3CFCCE428322BA300A4F50A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCE328322BA300A4F50A /* ContentView.swift */; };
 		A3CFCCE628322BA400A4F50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CFCCE528322BA400A4F50A /* Assets.xcassets */; };
@@ -82,6 +83,7 @@
 		A3B9426428378A100023166F /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		A3B9426628378B4E0023166F /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		A3B942682837990B0023166F /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		A3B9426B28379FC10023166F /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A3CFCCDE28322BA300A4F50A /* xzl-patient-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xzl-patient-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xzl_patient_swiftApp.swift; sourceTree = "<group>"; };
 		A3CFCCE328322BA300A4F50A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,14 @@
 			path = Profiles;
 			sourceTree = "<group>";
 		};
+		A3B9426A28379FB30023166F /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				A3B9426B28379FC10023166F /* PageViewController.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		A3CFCCD528322BA300A4F50A = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +273,7 @@
 		A3CFCD192832563600A4F50A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A3B9426A28379FB30023166F /* PageView */,
 				A3B9424F283744130023166F /* Hikes */,
 				A3B94261283787CB0023166F /* Profiles */,
 				A3B94258283770750023166F /* Categories */,
@@ -437,6 +448,7 @@
 				A3CFCCE228322BA300A4F50A /* xzl_patient_swiftApp.swift in Sources */,
 				A3B94257283744130023166F /* HikeView.swift in Sources */,
 				A3CFCD1E28325CD700A4F50A /* LandmarkList.swift in Sources */,
+				A3B9426C28379FC10023166F /* PageViewController.swift in Sources */,
 				A3B9424328364CC60023166F /* BadgeBackground.swift in Sources */,
 				A3B9426728378B4E0023166F /* HikeBadge.swift in Sources */,
 				A3CFCD0C28323ECC00A4F50A /* CircleImage.swift in Sources */,
