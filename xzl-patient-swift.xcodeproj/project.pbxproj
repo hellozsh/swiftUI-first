@@ -21,6 +21,7 @@
 		A3B94257283744130023166F /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B94253283744130023166F /* HikeView.swift */; };
 		A3B9425A283770870023166F /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B94259283770870023166F /* CategoryHome.swift */; };
 		A3B9425C283777920023166F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9425B283777920023166F /* CategoryRow.swift */; };
+		A3B9425E28377BB90023166F /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9425D28377BB90023166F /* CategoryItem.swift */; };
 		A3CFCCE228322BA300A4F50A /* xzl_patient_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */; };
 		A3CFCCE428322BA300A4F50A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCE328322BA300A4F50A /* ContentView.swift */; };
 		A3CFCCE628322BA400A4F50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CFCCE528322BA400A4F50A /* Assets.xcassets */; };
@@ -70,6 +71,7 @@
 		A3B94253283744130023166F /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		A3B94259283770870023166F /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		A3B9425B283777920023166F /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		A3B9425D28377BB90023166F /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		A3CFCCDE28322BA300A4F50A /* xzl-patient-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xzl-patient-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xzl_patient_swiftApp.swift; sourceTree = "<group>"; };
 		A3CFCCE328322BA300A4F50A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			children = (
 				A3B94259283770870023166F /* CategoryHome.swift */,
 				A3B9425B283777920023166F /* CategoryRow.swift */,
+				A3B9425D28377BB90023166F /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -190,7 +193,6 @@
 		A3CFCCE028322BA300A4F50A /* xzl-patient-swift */ = {
 			isa = PBXGroup;
 			children = (
-				A3B94258283770750023166F /* Categories */,
 				A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */,
 				A3B9424F283744130023166F /* Hikes */,
 				A3CFCD192832563600A4F50A /* Views */,
@@ -240,6 +242,7 @@
 		A3CFCD192832563600A4F50A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A3B94258283770750023166F /* Categories */,
 				A3B9424A28373D9A0023166F /* Badge */,
 				A386101D2836424F00C648E9 /* Helpers */,
 				A386101C2836423700C648E9 /* Landmarks */,
@@ -398,6 +401,7 @@
 				A3B94254283744130023166F /* GraphCapsule.swift in Sources */,
 				A3D755AE28333CB800243425 /* LandmarkDetail.swift in Sources */,
 				A386101A283640FE00C648E9 /* FavoriteButton.swift in Sources */,
+				A3B9425E28377BB90023166F /* CategoryItem.swift in Sources */,
 				A3B94256283744130023166F /* HikeDetail.swift in Sources */,
 				A386101F2836463400C648E9 /* HexagonParameters.swift in Sources */,
 				A3B9424E283740750023166F /* Hike.swift in Sources */,
