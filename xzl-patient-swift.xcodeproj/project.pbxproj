@@ -22,6 +22,11 @@
 		A3B9425A283770870023166F /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B94259283770870023166F /* CategoryHome.swift */; };
 		A3B9425C283777920023166F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9425B283777920023166F /* CategoryRow.swift */; };
 		A3B9425E28377BB90023166F /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9425D28377BB90023166F /* CategoryItem.swift */; };
+		A3B94260283786DF0023166F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9425F283786DF0023166F /* Profile.swift */; };
+		A3B94263283787DE0023166F /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B94262283787DE0023166F /* ProfileHost.swift */; };
+		A3B9426528378A100023166F /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9426428378A100023166F /* ProfileSummary.swift */; };
+		A3B9426728378B4E0023166F /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9426628378B4E0023166F /* HikeBadge.swift */; };
+		A3B942692837990B0023166F /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B942682837990B0023166F /* ProfileEditor.swift */; };
 		A3CFCCE228322BA300A4F50A /* xzl_patient_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */; };
 		A3CFCCE428322BA300A4F50A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFCCE328322BA300A4F50A /* ContentView.swift */; };
 		A3CFCCE628322BA400A4F50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CFCCE528322BA400A4F50A /* Assets.xcassets */; };
@@ -72,6 +77,11 @@
 		A3B94259283770870023166F /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		A3B9425B283777920023166F /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		A3B9425D28377BB90023166F /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		A3B9425F283786DF0023166F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A3B94262283787DE0023166F /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		A3B9426428378A100023166F /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		A3B9426628378B4E0023166F /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		A3B942682837990B0023166F /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		A3CFCCDE28322BA300A4F50A /* xzl-patient-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xzl-patient-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xzl_patient_swiftApp.swift; sourceTree = "<group>"; };
 		A3CFCCE328322BA300A4F50A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +162,7 @@
 		A3B9424F283744130023166F /* Hikes */ = {
 			isa = PBXGroup;
 			children = (
+				A3B9426628378B4E0023166F /* HikeBadge.swift */,
 				A3B94250283744130023166F /* GraphCapsule.swift */,
 				A3B94251283744130023166F /* HikeGraph.swift */,
 				A3B94252283744130023166F /* HikeDetail.swift */,
@@ -168,6 +179,16 @@
 				A3B9425D28377BB90023166F /* CategoryItem.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		A3B94261283787CB0023166F /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				A3B94262283787DE0023166F /* ProfileHost.swift */,
+				A3B9426428378A100023166F /* ProfileSummary.swift */,
+				A3B942682837990B0023166F /* ProfileEditor.swift */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 		A3CFCCD528322BA300A4F50A = {
@@ -194,7 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				A3CFCCE128322BA300A4F50A /* xzl_patient_swiftApp.swift */,
-				A3B9424F283744130023166F /* Hikes */,
 				A3CFCD192832563600A4F50A /* Views */,
 				A3CFCD17283255B500A4F50A /* Model */,
 				A3CFCCE528322BA400A4F50A /* Assets.xcassets */,
@@ -235,6 +255,7 @@
 				A3CFCD1128324DB400A4F50A /* Landmark.swift */,
 				A3CFCD152832521500A4F50A /* ModelData.swift */,
 				A3B9424D283740750023166F /* Hike.swift */,
+				A3B9425F283786DF0023166F /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -242,6 +263,8 @@
 		A3CFCD192832563600A4F50A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A3B9424F283744130023166F /* Hikes */,
+				A3B94261283787CB0023166F /* Profiles */,
 				A3B94258283770750023166F /* Categories */,
 				A3B9424A28373D9A0023166F /* Badge */,
 				A386101D2836424F00C648E9 /* Helpers */,
@@ -393,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B9425C283777920023166F /* CategoryRow.swift in Sources */,
+				A3B94260283786DF0023166F /* Profile.swift in Sources */,
 				A3CFCCE428322BA300A4F50A /* ContentView.swift in Sources */,
 				A3B9425A283770870023166F /* CategoryHome.swift in Sources */,
 				A3B94255283744130023166F /* HikeGraph.swift in Sources */,
@@ -403,14 +427,18 @@
 				A386101A283640FE00C648E9 /* FavoriteButton.swift in Sources */,
 				A3B9425E28377BB90023166F /* CategoryItem.swift in Sources */,
 				A3B94256283744130023166F /* HikeDetail.swift in Sources */,
+				A3B9426528378A100023166F /* ProfileSummary.swift in Sources */,
 				A386101F2836463400C648E9 /* HexagonParameters.swift in Sources */,
+				A3B94263283787DE0023166F /* ProfileHost.swift in Sources */,
 				A3B9424E283740750023166F /* Hike.swift in Sources */,
 				A3B94247283737620023166F /* RotatedBadgeSymbol.swift in Sources */,
 				A3B94245283735910023166F /* BadgeSymbol.swift in Sources */,
+				A3B942692837990B0023166F /* ProfileEditor.swift in Sources */,
 				A3CFCCE228322BA300A4F50A /* xzl_patient_swiftApp.swift in Sources */,
 				A3B94257283744130023166F /* HikeView.swift in Sources */,
 				A3CFCD1E28325CD700A4F50A /* LandmarkList.swift in Sources */,
 				A3B9424328364CC60023166F /* BadgeBackground.swift in Sources */,
+				A3B9426728378B4E0023166F /* HikeBadge.swift in Sources */,
 				A3CFCD0C28323ECC00A4F50A /* CircleImage.swift in Sources */,
 				A3CFCD1228324DB400A4F50A /* Landmark.swift in Sources */,
 				A3CFCD1C2832572700A4F50A /* LandmarkRow.swift in Sources */,
