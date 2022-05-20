@@ -50,9 +50,12 @@ struct HikeView: View {
                     Label("Graph", systemImage: "chevron.right.circle")
                         .labelStyle(.iconOnly)
                         .imageScale(.large)
+//                    以下有4个动画，当最后.spring()打开时候，会继承放大缩小和转90度动画，如果第二行.animation(nil, value: showDetail)打开， 第一个转90度动画就会无效
                         .rotationEffect(.degrees(showDetail ? 90 : 0))
+//                        .animation(nil, value: showDetail)
                         .scaleEffect(showDetail ? 1.5 : 1)
                         .padding()
+//                        .animation(.spring().delay(4), value: showDetail)
                 }
             }
 

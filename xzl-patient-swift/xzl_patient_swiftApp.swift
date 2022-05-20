@@ -19,5 +19,7 @@ struct xzl_patient_swiftApp: App {
             ContentView()
                 .environmentObject(modelData)
         }
+        
+        // xcrun simctl list devicetypes 可以查询所有可设置预览的设备
     }
 }
